@@ -14,7 +14,9 @@ $d = 1.5;
 
 // ((20 / 3) / 3) + pot(2,8) / 2
 $resultado = ((20/3))/3 + pow(2,8)/2;
-echo $resultado."<br>";
+
+echo number_format($resultado, 2);
+
 echo gettype($resultado)
 
 

@@ -14,6 +14,7 @@ $d = 1.5;
 
 // rad(pot(a,b / a)) + c * d
 $resultado = sqrt(pow($a,$b/$a)) + $c * $d;
+
 echo $resultado."<br>";
 echo gettype($resultado)
 
